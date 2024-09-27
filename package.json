@@ -1,0 +1,23 @@
+{
+  "name": "desafio-01-fundamentos-nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "csv-parse": "^5.5.6",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.4.0"
+  }
+}
